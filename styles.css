@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fira+Sans+Condensed:ital,wght@0,300;1,200&family=Fredoka:wght@500&family=Open+Sans:ital@1&family=Pacifico&family=Patrick+Hand&family=Rubik&family=Supermercado+One&display=swap');
+
+:root {
+--primary-color : #171717;
+--blue : #03CEDE; 
+}
+
+.container {
+    padding: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+
+body {
+    font-family:  'Fira Sans Condensed', sans-serif;
+    background-color: var(--primary-color);
+    color: #03CEDE;
+    margin: 1vh;
+    font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.label,input {
+    display: block;
+    margin-top: 5rem;
+    width: 2rem;
+}
+
+label {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+input {
+    border-radius: 1px;
+    padding: 1rem;
+  border: solid 2px var(--blue);
+  font-size: large;
+  margin: 1rem;
+
+}
+
+#check-button {
+    background-color: black;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: var(--black);
+  margin: auto;
+  display: block;
+    
+}
+
+#output-box {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+    border-color: var(--black);
+    border-width: medium;
+    border-radius: 5px;
+}
