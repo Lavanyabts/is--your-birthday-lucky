@@ -25,15 +25,11 @@ h1 {
     padding: 2rem;
 }
 
-.label,input {
-    display: block;
-    margin-top: 5rem;
-    width: 20%;
-}
 
 label {
     font-weight: 500;
     font-size: 1.3rem;
+    display: block;
 }
 
 input {
@@ -43,6 +39,7 @@ input {
     border: solid 2px var(--blue);
     font-size: large;
     margin: auto;
+    margin-top: 2rem;
     text-align: center;
     display: block;
 
@@ -57,6 +54,7 @@ input {
   font-size: large;
   cursor: pointer;
   margin: auto;
+  margin-top: 2rem;
   display: block;
     
 }
@@ -64,7 +62,7 @@ input {
 #output-box {
     display: block;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
     width: 20%;
     text-align: center;
     padding: 1rem;
