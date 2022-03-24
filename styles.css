@@ -28,7 +28,7 @@ h1 {
 .label,input {
     display: block;
     margin-top: 5rem;
-    width: 2rem;
+    width: 20%;
 }
 
 label {
@@ -37,11 +37,14 @@ label {
 }
 
 input {
-    border-radius: 1px;
+    border-radius: 0.5rem;
+    width: 20%;
     padding: 1rem;
-  border: solid 2px var(--blue);
-  font-size: large;
-  margin: 1rem;
+    border: solid 2px var(--blue);
+    font-size: large;
+    margin: auto;
+    text-align: center;
+    display: block;
 
 }
 
@@ -53,7 +56,6 @@ input {
   border-radius: 0.5rem;
   font-size: large;
   cursor: pointer;
-  outline: var(--black);
   margin: auto;
   display: block;
     
@@ -63,11 +65,12 @@ input {
     display: block;
     margin: auto;
     margin-top: 1rem;
-    width: 100%;
+    width: 20%;
     text-align: center;
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: x-large;
-    border-color: var(--black);
+    border-color: var(--blue);
     border-width: medium;
     border-radius: 5px;
+    background-color: white;
 }
